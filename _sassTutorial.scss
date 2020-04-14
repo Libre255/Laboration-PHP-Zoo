@@ -1,0 +1,21 @@
+//How to import
+@import './CSS/reset'
+
+//******** Tips ************
+// Form: if you want to center a form you need to give it a width
+// CENTER inside a grid Cell = creat an <div> in each element/item inside the grid and display flex those divs Justift and Align Center 
+
+// **** HTML Tips *********
+// creating a table: <table>, <caption>, <tr>, <td>
+
+// ******** SASS
+.CreatingStuctureOfAreas{
+  display: grid;
+  grid-template-areas: 
+  'Name Name Name'
+  'SecondItem ThridItem SecondItem';
+}
+.item{
+  grid-area: Name; // and so on you name each div so its position in the specific position in the grid template area
+
+}

@@ -1,0 +1,35 @@
+//Katalog Page:
+.KatalogSearch{
+  margin: 100px auto;
+  width: 400px;
+  h1{  
+  font-size: 30px;
+  font-weight: bolder;
+  padding-bottom: 10px;
+  };
+};
+.uploadedIMGBox{
+  text-align: center;
+  margin: 0 auto;
+  width: 90%;
+  height: 400px;
+  margin-bottom: 20px;
+  display: grid !important;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 15px;
+  .defaultSearchText{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 275px;
+  }
+   img{
+     width: 250px;
+     padding-bottom: 10px;
+   }
+  .KatalogCenterIMG{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

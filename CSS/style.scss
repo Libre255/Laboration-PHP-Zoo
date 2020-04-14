@@ -1,0 +1,51 @@
+@import './reset';
+@import './Katalog';
+@import './SearchAnimal';
+
+//Menu bar
+.Menu-Main{
+  margin: 0 auto;
+  width: 95%;
+  height: 100px;
+  display: flex;
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  .MenuButtons{
+    border: 2px solid black;
+    margin: auto;
+    width: 100px;
+    height: 40px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+  };
+  .LogoMenu{
+    border: none;
+    font-size: 48px;
+  }
+};
+
+.centerdiv{
+  margin: 0 auto;
+  width: 90%;
+  height: 400px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // border: 2px solid black;
+};
+
+.WelcomTitle{
+  text-align: center;
+  font-size: 25px;
+}
+.MinCarosel{
+  margin: 0 auto;
+  height: 500px;
+}
+
+
